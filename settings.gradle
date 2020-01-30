@@ -1,10 +1,12 @@
 include ':app:k9mail'
+
 include ':app:ui'
 include ':app:core'
 include ':app:storage'
 include ':app:crypto-openpgp'
 include ':app:testing'
 include ':app:autodiscovery'
+
 include ':mail:common'
 include ':mail:testing'
 include ':mail:protocols:imap'
